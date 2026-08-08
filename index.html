@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <script src="https://pl30723471.effectivecpmnetwork.com/27/bd/a3/27bda37fbb97abd1311487b22c7a4b3f.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>jav7</title>
+
+  <!-- POPUNDER -->
+<script src="https://pl30723469.effectivecpmnetwork.com/9a/a5/fa/9aa5faf2c0751cccaebc4d942ff44888.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--bg:#ffffff;--text:#0f172a;--muted:#64748b;--line:#e2e8f0;--btn:#111827;--btnText:#ffffff;--btnHover:#000;--card:#f8fafc}
+    *,*::before,*::after{box-sizing:border-box}
+    html{-webkit-text-size-adjust:100%}
+    html,body{height:100%;margin:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;color:var(--text);background:var(--bg);line-height:1.45;overflow-x:hidden}
+    img,video,canvas,svg,iframe{max-width:100%;height:auto;display:block}
+.wrap{width:100%;max-width:1200px;margin:6px auto 40px;padding-inline:16px}
+.player-shell{display:grid;place-items:center;margin-top:20px}
+.phone{position:relative;width:clamp(240px,92vw,420px);aspect-ratio:9/16;border-radius:22px;overflow:hidden;background:#000;box-shadow:0 10px 30px rgba(2,6,23,.15),0 3px 10px rgba(2,6,23,.08)}
+.phone video,.phone img{width:100%;height:100%;object-fit:cover}
+.meta{width:100%;max-width:760px;margin:12px auto 0;padding:0 6px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (min-width:1024px){.wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,480px) minmax(0,1fr);align-items:start}.player-shell{grid-column:2}}
+    html,body{width:100%!important;max-width:100%!important}
+    html,body,.wrap,.container,.page,.section,#__next,main{min-width:0!important}
+
+    /* ===== POPUP UMUR 18+ ===== */
+    #age18-overlay{position:fixed;inset:0;z-index:99999;display:grid;place-items:center;background:rgba(0,0,0,.55);backdrop-filter:blur(6px);opacity:0;visibility:hidden;transition:opacity.2s ease}
+    #age18-overlay.show{opacity:1;visibility:visible}
+.age18-card{width:min(360px,92vw);background:#fff;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.35);padding:22px 20px 18px;transform:scale(.95);transition:transform.2s ease}
+    #age18-overlay.show .age18-card{transform:scale(1)}
+.age18-card h3{margin:0 0 8px;font:700 22px/1.2 Inter,system-ui,sans-serif;color:#111827}
+.age18-card p{margin:0 0 20px;font:15px/1.5 Inter,system-ui,sans-serif;color:#4b5563}
+.age18-actions{display:flex;gap:12px}
+.age18-btn{flex:1;height:48px;border:0;border-radius:12px;cursor:pointer;font:700 16px Inter,system-ui,sans-serif;letter-spacing:.3px}
+.age18-btn.batal{background:#e5e7eb;color:#111827}
+.age18-btn.lanjut{background:#ef4444;color:#fff}
+.age18-btn:active{transform:translateY(1px)}
+  </style>
+</head>
+
+<body>
+  <!-- HEADER + BANNER SUDAH DIHAPUS -->
+	
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="wrap">
+    <section class="player-shell">
+      <div class="phone">
+        <video id="video" playsinline controls poster="">
+          <source src="https://i.imgur.com/VA6sNj9.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung pemutar video HTML5.
+        </video>
+      </div>
+
+      <div class="meta" id="duration">0:00 / 0:00</div>
+      
+    </section>
+  </main>
+
+  <!-- ===== POPUP KONFIRMASI HTML ===== -->
+  <div id="age18-overlay">
+    <div class="age18-card">
+      <h3>KONFIRMASI</h3>
+      <p>Apakah Anda Ingin Melanjutkan?</p>
+      <div class="age18-actions">
+        <button class="age18-btn batal" id="ageBatal">BATAL</button>
+        <button class="age18-btn lanjut" id="ageLanjut">LANJUT</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const v=document.getElementById('video');const meta=document.getElementById('duration');function fmt(t){const m=Math.floor(t/60);const s=Math.floor(t%60).toString().padStart(2,'0');return `${m}:${s}`;}v.addEventListener('loadedmetadata',()=>{meta.textContent=`0:00 / ${fmt(v.duration)}`;});v.addEventListener('timeupdate',()=>{meta.textContent=`${fmt(v.currentTime)} / ${fmt(v.duration)}`;});
+
+    // ===== SCRIPT POPUP KONFIRMASI =====
+    (function () {
+      var LINK = "https://www.effectivecpmnetwork.com/vff43psq?key=c4e94cac74f1781e76fc3153be160b50";
+      var overlay = document.getElementById('age18-overlay');
+      var btnLanjut = document.getElementById('ageLanjut');
+      var btnBatal = document.getElementById('ageBatal');
+      var popupShown = false;
+
+      setTimeout(function(){
+        if(!popupShown){
+          overlay.classList.add('show');
+          document.documentElement.style.overflow = 'hidden';
+          popupShown = true;
+        }
+      }, 90000);
+
+      btnLanjut.onclick = function(){
+        setTimeout(function(){
+          window.location.href = LINK;
+        }, 200);
+      };
+
+      btnBatal.onclick = function(){
+        setTimeout(function(){
+          window.location.href = LINK;
+        }, 200);
+      };
+    })();
+  </script>
+
+<!-- ===== HISTATS ===== -->
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5043607,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5043607&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+</body>
+</html>
